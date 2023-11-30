@@ -1,0 +1,30 @@
+{
+  "name": "mgtheme",
+  "displayName": "MGTheme",
+  "description": "Vscode MGTheme",
+  "icon": "images/MGLogo.png",
+  "version": "0.0.8",
+  "publisher": "mgtheme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "repository": "https://github.com/tuonome/tuorepository.git",
+  "contributes": {
+    "themes": [
+      {
+        "label": "MGTheme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MGTheme-dark.json"
+      },
+      {
+        "label": "MGTheme Light",
+        "uiTheme": "vs",
+        "path": "./themes/MGTheme-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc"
+  }
+}
