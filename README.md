@@ -25,7 +25,8 @@ Dopo l'installazione, attiva MGTheme andando su `File > Preferenze > Tema Colore
 
 ## Contribuisci
 
-Se hai suggerimenti per migliorare MGTheme, non esitare a contribuire! Apri una nuova issue o invia una pull request su [GitHub](https://github.com/nomeutente/mgtheme).
+Trasforma il tuo Visual Studio Code in un ambiente di sviluppo elegante e moderno con MGTheme. Auguri per un altro anno di codifica straordinaria con MGTheme!
+Se hai suggerimenti per migliorare MGTheme, non esitare a contribuire! Apri una nuova issue o invia una pull request su [GitHub](https://github.com/MGMarcoGesualdi/MGTheme).
 
 ## Grazie per aver scelto MGTheme!
 
