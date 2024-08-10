@@ -1,0 +1,389 @@
+{
+    "name": "MGTheme Light Professional",
+    "icon": "themes/MGLogo.png",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#2C3E50",
+        "activityBarBadge.background": "#3498DB",
+        "sideBarTitle.foreground": "#7F8C8D"
+    },
+    "tokenColors": [
+        {
+            "name": "Commenti",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#95A5A6"
+            }
+        },
+        {
+            "name": "Variabili",
+            "scope": [
+                "variable",
+                "string constant.other.placeholder"
+            ],
+            "settings": {
+                "foreground": "#34495E"
+            }
+        },
+        {
+            "name": "Colori",
+            "scope": [
+                "constant.other.color"
+            ],
+            "settings": {
+                "foreground": "#E67E22"
+            }
+        },
+        {
+            "name": "Non valido",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#E74C3C"
+            }
+        },
+        {
+            "name": "Parola chiave, Storage",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#2980B9"
+            }
+        },
+        {
+            "name": "Operatore, Varie",
+            "scope": [
+                "keyword.control",
+                "constant.other.color",
+                "punctuation",
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#8E44AD"
+            }
+        },
+        {
+            "name": "Tag",
+            "scope": [
+                "entity.name.tag",
+                "meta.tag.sgml",
+                "markup.deleted.git_gutter"
+            ],
+            "settings": {
+                "foreground": "#16A085"
+            }
+        },
+        {
+            "name": "Funzione, Metodo Speciale",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function"
+            ],
+            "settings": {
+                "foreground": "#D35400"
+            }
+        },
+        {
+            "name": "Variabili di Livello di Blocco",
+            "scope": [
+                "meta.block variable.other"
+            ],
+            "settings": {
+                "foreground": "#27AE60"
+            }
+        },
+        {
+            "name": "Altra Variabile, Link di Stringa",
+            "scope": [
+                "support.other.variable",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "#3498DB"
+            }
+        },
+        {
+            "name": "Numero, Costante, Argomento di Funzione, Attributo di Tag, Incorporato",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.constant",
+                "constant.character"
+            ],
+            "settings": {
+                "foreground": "#9B59B6"
+            }
+        },
+        {
+            "name": "Stringa, Simboli, Classe Ereditata, Intestazione di Markup",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#2ECC71"
+            }
+        },
+        {
+            "name": "Classe, Supporto",
+            "scope": [
+                "entity.name",
+                "support.type",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#E67E22"
+            }
+        },
+        {
+            "name": "Tipi di Entità",
+            "scope": [
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#3498DB"
+            }
+        },
+        {
+            "name": "Classe CSS e Supporto",
+            "scope": [
+                "source.css support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#2980B9"
+            }
+        },
+        {
+            "name": "Sub-metodi",
+            "scope": [
+                "entity.name.module.js"
+            ],
+            "settings": {
+                "foreground": "#D35400"
+            }
+        },
+        {
+            "name": "Metodi di Linguaggio",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#8E44AD"
+            }
+        },
+        {
+            "name": "Nome Entità Metodo (JavaScript)",
+            "scope": [
+                "entity.name.method.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#3498DB"
+            }
+        },
+        {
+            "name": "Meta Metodo (JavaScript)",
+            "scope": [
+                "meta.class-method.js entity.name.function.js"
+            ],
+            "settings": {
+                "foreground": "#16A085"
+            }
+        },
+        {
+            "name": "Attributi",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#C0392B"
+            }
+        },
+        {
+            "name": "Attributi HTML",
+            "scope": [
+                "text.html.basic entity.other.attribute-name.html"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#2980B9"
+            }
+        },
+        {
+            "name": "Classi CSS",
+            "scope": [
+                "entity.other.attribute-name.class"
+            ],
+            "settings": {
+                "foreground": "#8E44AD"
+            }
+        },
+        {
+            "name": "ID CSS",
+            "scope": [
+                "source.sass keyword.control"
+            ],
+            "settings": {
+                "foreground": "#27AE60"
+            }
+        },
+        {
+            "name": "Inserito",
+            "scope": [
+                "markup.inserted"
+            ],
+            "settings": {
+                "foreground": "#2ECC71"
+            }
+        },
+        {
+            "name": "Eliminato",
+            "scope": [
+                "markup.deleted"
+            ],
+            "settings": {
+                "foreground": "#E74C3C"
+            }
+        },
+        {
+            "name": "Modificato",
+            "scope": [
+                "markup.changed"
+            ],
+            "settings": {
+                "foreground": "#F1C40F"
+            }
+        },
+        {
+            "name": "Espressioni Regolari",
+            "scope": [
+                "string.regexp"
+            ],
+            "settings": {
+                "foreground": "#8E44AD"
+            }
+        },
+        {
+            "name": "Caratteri di Escape",
+            "scope": [
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#FF5733"
+            }
+        },
+        {
+            "name": "URL",
+            "scope": [
+                "*url*",
+                "*link*",
+                "*uri*"
+            ],
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#2980B9"
+            }
+        },
+        {
+            "name": "Decoratori",
+            "scope": [
+                "tag.decorator.js entity.name.tag.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#3498DB"
+            }
+        },
+        {
+            "name": "Chiave JSON",
+            "scope": [
+                "source.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#C0392B"
+            }
+        },
+        {
+            "name": "Markdown - Puro",
+            "scope": [
+                "text.html.markdown"
+            ],
+            "settings": {
+                "foreground": "#2C3E50"
+            }
+        },
+        {
+            "name": "Markdown - Grezzo Inline",
+            "scope": [
+                "text.html.markdown markup.inline.raw.markdown"
+            ],
+            "settings": {
+                "foreground": "#8E44AD"
+            }
+        },
+        {
+            "name": "Markdown - Intestazione",
+            "scope": [
+                "markdown.heading",
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#2ECC71"
+            }
+        },
+        {
+            "name": "Markup - Corsivo",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#16A085"
+            }
+        },
+        {
+            "name": "Markup - Grassetto",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#C0392B"
+            }
+        },
+        {
+            "name": "Marcatura - Grassetto-Corsivo",
+            "scope": [
+                "markup.bold markup.italic",
+                "markup.italic markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#D35400"
+            }
+        },
+        {
+            "name": "Marcatura - Blocchi di codice",
+            "scope": [
+                "markup.raw.block"
+            ],
+            "settings": {
+                "foreground": "#8E44AD"
+            }
+        }
+    ]
+}

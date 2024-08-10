@@ -1,0 +1,40 @@
+{
+  "name": "mgtheme",
+  "displayName": "MGTheme",
+  "description": "Vscode MGTheme",
+  "icon": "images/MGLogo.png",
+  "version": "0.0.12",
+  "publisher": "mgtheme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "repository": "https://github.com/MGMarcoGesualdi/MGTheme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "MGTheme Dark EN",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MGTheme-dark-EN.json"
+      },
+      {
+        "label": "MGTheme Dark IT",
+        "uiTheme": "vs-dark",
+        "path": "/themes/MGTheme-dark-IT.json"
+      },
+      {
+        "label": "MGTheme Light EN",
+        "uiTheme": "vs",
+        "path": "./themes/MGTheme-light-EN.json"
+      },
+      {
+        "label": "MGTheme Light IT",
+        "uiTheme": "vs",
+        "path": "./themes/MGTheme-light-IT.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc"
+  }
+}
